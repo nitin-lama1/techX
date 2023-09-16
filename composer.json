@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^10.0",
         "drupal/devel": "^5.0",
         "drupal/devel_php": "^1.5",
+        "drupal/ultimate_cron": "^2.0@alpha",
         "drush/drush": "^12.2"
     },
     "conflict": {
