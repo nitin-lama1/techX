@@ -1,1 +1,3 @@
-# Drupal for techX
+# techX
+
+Drupal project for techX session at specbee.
