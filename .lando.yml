@@ -1,0 +1,21 @@
+name: techx
+recipe: drupal10
+config:
+  webroot: web
+  php: "8.1"
+  composer_version: "2.3.5"
+
+proxy:
+  mailhog:
+    - mailhog.lndo.site
+  phpmyadmin:
+    - phpmyadmin.lndo.site
+
+services:
+  mailhog:
+    type: mailhog
+    portforward: true
+    hogfrom:
+      - appserver
+  phpmyadmin:
+    type: phpmyadmin
