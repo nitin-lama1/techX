@@ -20,6 +20,7 @@ vendor/
 # Ignore core and contrib modules
 web/core/
 web/modules/contrib
+web/themes/contrib
 
 # Ignore configuration files that may contain sensitive information.
 web/sites/*/settings*.php
