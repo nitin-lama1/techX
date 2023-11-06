@@ -1,0 +1,4 @@
+name: Custom cron module
+description: Provides an example for cron jobs.
+type: module
+core_version_requirement: ^9.2 || ^10

@@ -1,0 +1,22 @@
+uuid: 47db785b-549c-40cc-a2c6-a947f7cd208d
+langcode: en
+status: true
+dependencies:
+  module:
+    - custom_cron_example
+_core:
+  default_config_hash: Hc0aXeIg1F1pbWFNb5ld8K_d2odpiIIcTTX-ALTGl2s
+title: 'Custom job for publishing articless'
+id: publish_article_job
+weight: 0
+module: custom_cron_example
+callback: custom_cron_example_publish_article_job
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '* * * * *'
+launcher:
+  id: serial
+logger:
+  id: database
